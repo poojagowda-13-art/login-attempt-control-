@@ -1,0 +1,12 @@
+2026-09-11 07:45:08,700 | INFO | FAILURE  | identifier=alice@example.com | failed attempt 1/5 | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,700 | INFO | FAILURE  | identifier=alice@example.com | failed attempt 2/5 | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,700 | INFO | FAILURE  | identifier=alice@example.com | failed attempt 3/5 | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,700 | INFO | FAILURE  | identifier=alice@example.com | failed attempt 4/5 | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | FAILURE  | identifier=alice@example.com | failed attempt 5/5 | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | LOCKOUT  | identifier=alice@example.com | account locked for 10s after 5 consecutive failures | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | BLOCKED  | identifier=alice@example.com | attempt rejected — account locked, 10s remaining | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | BLOCKED  | identifier=alice@example.com | attempt rejected — account locked, 10s remaining | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | BLOCKED  | identifier=alice@example.com | attempt rejected — account locked, 10s remaining | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | BLOCKED  | identifier=alice@example.com | attempt rejected — account locked, 10s remaining | time=2026-09-11T07:45:08
+2026-09-11 07:45:08,701 | INFO | SUCCESS  | identifier=bob@example.com | login succeeded | time=2026-09-11T07:45:08
+2026-09-11 07:45:19,701 | INFO | SUCCESS  | identifier=alice@example.com | login succeeded | time=2026-09-11T07:45:19
